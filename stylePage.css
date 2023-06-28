@@ -1,0 +1,699 @@
+body{
+    margin:0;
+    width:100%;
+}
+
+#allPage{
+    background: url("img/firstaPic1.jpg") no-repeat;
+    background-size:100% 100%;
+    width:100%;
+    height: 900px;
+}
+
+#allPage header{
+    background-color:rgba(140, 210, 255, 0.85);
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+}
+
+#allPage header .left{
+    margin-left: 80px;
+    float:left;
+    width: 200px;
+}
+
+#allPage header .right{
+    padding-top:10px;
+    margin-right: 30px;
+    float:right;
+    width:600px;
+    display: inline-block;
+}
+
+#allPage header .right ul{
+    display: inline-block;
+    list-style: none;
+}
+
+#allPage header .right li{
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+#allPage header .right li a{
+    color:black;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "Felix Titling", Serif;
+    letter-spacing: 0.075em;
+}
+
+#allPage header .right li a:hover{
+    border:1px solid black;
+    background-color: #91af62;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+#allPage header .right .selected{
+    border:1px solid black;
+    background-color: #afafaf;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+#allPage section{
+    height:700px;
+    margin:60px 110px;
+    width:80%;
+    background-color:rgba(255,255,255,0.8);
+}
+
+#allPage section h1{
+    text-align: center;
+    padding-top:40px;
+    font-size:25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Felix Titling", Serif;
+    letter-spacing: 0.1em;
+}
+
+#allPage section .entry {
+    display:flex;
+    margin:50px 80px;
+}
+
+#allPage section h1:first-letter{
+    font-size:45px;
+}
+
+#allPage section .entry .firstPart.left img{
+    flex-basis:50%;
+    height:500px;
+    margin-right:40px;
+}
+
+#allPage section .entry .firstPart.right{
+    flex-basis: 50%;
+    height:500px;
+    border-left:2px solid black;
+    padding-left:20px;
+}
+
+#allPage section .entry .firstPart.right h3{
+    font-size:20px;
+    font-family: Serif;
+    font-style: italic;
+    margin:0;
+    font-weight: bolder;
+}
+
+#allPage section .entry .firstPart.right p{
+    font-size:16px;
+    font-family: Serif;
+    font-style: italic;
+    text-align: justify;
+    background-color:rgba(255,255,255,0.85);
+    margin:10px 0;
+}
+
+/*STRANA ZA AVSTRALIJA*/
+
+
+#allPage1{
+    background: url("img/secondPage/bannerPhoto.jpeg") no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 900px;
+}
+#allPage1 header{
+    /*background-color: #b3d4f3;*/
+    background-color:rgba(140, 210, 255, 0.85);
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+}
+
+#allPage1 header .left{
+    margin-left: 80px;
+    float:left;
+    width: 200px;
+}
+
+#allPage1 header .right{
+    padding-top:10px;
+    margin-right: 30px;
+    float:right;
+    width:600px;
+    display: inline-block;
+}
+
+#allPage1 header .right ul{
+    display: inline-block;
+    list-style: none;
+}
+
+#allPage1 header .right li{
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+#allPage1 header .right li a{
+    color:black;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "Felix Titling", Serif;
+    letter-spacing: 0.075em;
+}
+
+#allPage1 header .right li a:hover{
+    border:1px solid black;
+    background-color: #91af62;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+#allPage1 header .right .selected{
+    border:1px solid black;
+    background-color: #afafaf;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+#allPage1 section .introduction{
+    height:660px;
+    margin:60px 110px;
+    width:80%;
+    background-color:rgba(255,255,255,0.8);
+}
+
+#allPage1 section .introduction h1{
+    text-align: center;
+    padding-top:40px;
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Felix Titling", Serif;
+    letter-spacing: 0.1em;
+}
+
+#allPage1 section .introduction .bannerIntr{
+    display:flex;
+}
+
+#allPage1 section .introduction .bannerIntr .left{
+    flex-basis: 50%;
+    margin:10px 0 20px 50px;
+}
+
+#allPage1 section .introduction .bannerIntr .right{
+    flex-basis: 50%;
+    margin:0 40px 20px 0;
+}
+
+#allPage1 section .introduction .bannerIntr .right p{
+    text-indent: 40px;
+    font-size:15px;
+    font-family: Serif;
+    font-style: italic;
+    text-align: justify;
+    background-color:rgba(255,255,255,0.5);
+}
+
+#allPage1 section .introduction p{
+    text-indent: 40px;
+    font-size:15px;
+    font-family: Serif;
+    font-style: italic;
+    text-align: justify;
+    margin:7px 50px;
+    background-color:rgba(255,255,255,0.5);
+}
+
+#allPage1 section .introduction p span{
+    font-size:20px;
+    font-weight: bold;
+}
+
+/*Site delovii od poseta na avstr*/
+
+#allPage1 section .allContent{
+    margin-top:150px;
+    margin-left:30px;
+    height: 1300px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+/*prva REDICA*/
+
+#allPage1 section .allContent .firstRow{
+    flex-direction: row;
+    flex-basis: 25%;
+    height: auto;
+    display:flex;
+}
+
+#allPage1 section .allContent .firstRow .melbourne{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(57).jpg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage1 section .allContent .firstRow .artGallery{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(60).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage1 section .allContent .firstRow .aquarium{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(18).jpeg") no-repeat;
+    background-size:115% 100%;
+}
+
+/*otposle dodadena REDICA*/
+
+#allPage1 section .allContent .firstRow2{
+    flex-direction: row;
+    flex-basis: 25%;
+    display:flex;
+}
+
+#allPage1 section .allContent .firstRow2 .oceanRoad{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(29).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage1 section .allContent .firstRow2 .botanicGarden{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(30).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage1 section .allContent .firstRow2 .bathingBoxes{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(61).jpg") no-repeat;
+    background-size:100% 100%;
+}
+
+
+
+/*VTORA redica*/
+
+#allPage1 section .allContent .secondRow{
+    flex-direction: row;
+    flex-basis: 25%;
+    display:flex;
+}
+
+#allPage1 section .allContent .secondRow .remembrance{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(12).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage1 section .allContent .secondRow .lorne{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(21).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+
+#allPage1 section .allContent .secondRow .skyDeck{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(11).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+/*TRETA redica*/
+
+#allPage1 section .allContent .thirdRow{
+    flex-direction: row;
+    flex-basis: 25%;
+    display:flex;
+}
+
+#allPage1 section .allContent .thirdRow .goldCoast{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(55).jpeg") no-repeat;
+    background-size:110% 100%;
+}
+#allPage1 section .allContent .thirdRow .bayronBay{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(22).jpeg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage1 section .allContent .thirdRow .brisbane{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin:15px;
+    border:2px solid slategray;
+    border-radius: 20px;
+    background: url("img/secondPage/photo1(10).jpeg") no-repeat;
+    background-size:110% 100%;
+}
+
+/*stilovi na content na poseta na Avstr*/
+
+#allPage1 section .allContent h3{
+    margin: 220px 20px 5px 20px;
+    padding:5px;
+    text-align: center;
+    font-size:16px;
+    text-transform: uppercase;
+    background-color: rgba(175,175,175,0.9);
+}
+
+#allPage1 section .allContent a{
+    text-decoration: none;
+    color:black;
+}
+
+#allPage1 section .allContent h3:hover{
+    margin: 220px 20px 5px 20px;
+    padding:5px;
+    text-align: center;
+    font-size:16px;
+    text-transform: uppercase;
+    background-color: rgba(140, 210, 255, 0.7);
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+/*STRANA ZA HRVATSKA*/
+
+#allPage2{
+    background: url("img/thirdPage/bannerPhoto.jpg") no-repeat;
+    width: 100%;
+    background-size:100% 100% ;
+    height: 900px;
+}
+
+#allPage2 header{
+    /*background-color: #b3d4f3;*/
+    background-color:rgba(140, 210, 255, 0.85);
+    width: 100%;
+    display: inline-block;
+    height: 80px;
+}
+
+#allPage2 header .left{
+    margin-left: 80px;
+    float:left;
+    width: 200px;
+}
+
+#allPage2 header .right{
+    padding-top:10px;
+    margin-right: 30px;
+    float:right;
+    width:600px;
+    display: inline-block;
+}
+
+#allPage2 header .right ul{
+    display: inline-block;
+    list-style: none;
+}
+
+#allPage2 header .right li{
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+#allPage2 header .right li a{
+    color:black;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "Felix Titling", Serif;
+    letter-spacing: 0.075em;
+}
+
+#allPage2 header .right li a:hover{
+    border:1px solid black;
+    background-color: #91af62;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+#allPage2 header .right .selected{
+    border:1px solid black;
+    background-color: #afafaf;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+
+#allPage2 section .introduction{
+    height:650px;
+    margin:80px 100px;
+    width:80%;
+    background-color:rgba(255,255,255,0.8);
+}
+
+#allPage2 section .introduction h1{
+    text-align: center;
+    padding-top:50px;
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Felix Titling", Serif;
+    letter-spacing: 0.1em;
+}
+
+#allPage2 section .introduction .bannerIntr{
+    display:flex;
+}
+
+#allPage2 section .introduction .bannerIntr .left{
+    flex-basis: 40%;
+    margin:20px 0 40px 70px;
+}
+
+#allPage2 section .introduction .bannerIntr .right{
+    flex-basis: 60%;
+    margin:15px 50px 40px 0;
+}
+
+#allPage2 section .introduction .bannerIntr .right p{
+    text-indent: 40px;
+    font-size:16px;
+    font-family: Serif;
+    font-style: italic;
+    text-align: justify;
+    background-color:rgba(255,255,255,0.3);
+}
+
+#allPage2 section .introduction p{
+    text-indent: 40px;
+    font-size:16px;
+    font-family: Serif;
+    font-style: italic;
+    text-align: justify;
+    margin:10px 40px;
+    background-color:rgba(255,255,255,0.3);
+}
+
+#allPage2 section .introduction p span{
+    font-size:18px;
+    font-weight: bold;
+}
+
+#allPage2 section .firstRow{
+    margin-left:60px;
+    margin-top:120px;
+    height: 340px;
+    display:flex;
+}
+
+#allPage2 section .firstRow .bol{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin-right:30px;
+    margin-bottom:40px;
+    border:3px solid slategray;
+    border-radius: 20px;
+    background: url("img/thirdPage/photo3.jpg");
+    background-size:100% 100%;
+}
+
+#allPage2 section .firstRow .goldenHorn{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin-right:30px;
+    margin-bottom: 40px;
+    border:3px solid slategray;
+    border-radius: 20px;
+    background: url("img/thirdPage/photo1convert.jpg") no-repeat;
+    background-size:100% 100%;
+}
+
+#allPage2 section .firstRow .vidovaGora{
+    flex-direction: column;
+    flex-basis: 30%;
+    margin-right:30px;
+    margin-bottom: 40px;
+    border:3px solid slategray;
+    border-radius: 20px;
+    background: url("img/thirdPage/photo4.jpg") no-repeat;
+    background-size:100% 100%;
+}
+
+/*stilovi na content za hrvatska*/
+#allPage2 section h3{
+    margin: 230px 20px 20px 20px;
+    padding:5px;
+    text-align: center;
+    font-size:16px;
+    text-transform: uppercase;
+    background-color: rgba(175,175,175,0.85);
+}
+
+#allPage2 section a{
+    text-decoration: none;
+    color:black;
+}
+
+#allPage2 section h3:hover{
+    margin: 230px 20px 20px 20px;
+    padding:5px;
+    text-align: center;
+    font-size:16px;
+    text-transform: uppercase;
+    background-color: rgba(140, 210, 255, 0.7);
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+#allPage section .container{
+    width:700px;
+    margin:70px 200px;
+    font-size:20px;
+    text-align: justify;
+}
+
+#allPage section .container input {
+    width: 500px;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: flex;
+    border: 1px solid black;
+    background: #afabab;
+}
+
+#allPage section .container input:focus{
+    background-color: #ddd;
+}
+
+#allPage section h2{
+    margin:50px 150px;
+    font-size:20px;
+}
+
+#allPage section h2 span{
+    color: #003c8b;
+    font-style: italic;
+    font-size:25px;
+}
+
+#allPage section .container button {
+    background-color: #04AA6D;
+    color: white;
+    font-size:18px;
+    padding: 10px 20px;
+    margin: 30px 270px;
+    width: 120px;
+    opacity: 0.9;
+    cursor:pointer;
+}
+
+#allPage footer{
+    background-color:rgba(140, 210, 255, 0.6);
+    width: 100%;
+    height: 40px;
+}
+
+#allPage footer p{
+    margin-left:150px;
+    padding:10px;
+    font-size:15px;
+}
+
+#allPage1 footer{
+    background-color:rgba(140, 210, 255, 0.6);
+    width: 100%;
+    height: 40px;
+}
+
+#allPage1 footer p{
+    margin-left:150px;
+    padding:10px;
+    font-size:15px;
+}
+
+#allPage2 footer{
+    background-color:rgba(140, 210, 255, 0.6);
+    width: 100%;
+    height: 40px;
+}
+
+#allPage2 footer p{
+    margin-left:150px;
+    padding:10px;
+    font-size:15px;
+}
